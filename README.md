@@ -2,8 +2,10 @@
 # Displaying API Data Into A Table.
 This Repository Explains How To Display API Data Into A Table Format With [**Python**](https://www.python.org/), [**Flask**](https://python-adv-web-apps.readthedocs.io/en/latest/flask.html) And [**Jinja2**](https://pypi.org/project/Jinja2/)
 
+Flask is a web framework that provides libraries to build lightweight web applications in python. 
 
-
+Jinja2 is a popular template engine for Python. A web template system combines a template with a specific data source to render a dynamic web page.
+This allows you to pass Python variables into HTML templates
 
 ## Table of contents
 
