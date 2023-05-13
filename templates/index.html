@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.html" %}  # Template Inheritence Using Jinja2
 
 {%block title %} User Details Page {% endblock %}
 
@@ -12,9 +12,9 @@
       <th class = "table_cell">Completed</th>
     </tr>
 
-    {% for user in newdata %}
+    {% for user in newdata %}  # Jinja2 for loop which iterates using variable "user" over API data stored in "newdata"
     <tr class = "table_row">
-      <td class = "table_cell">{{ user.userId }}</td>
+      <td class = "table_cell">{{ user.userId }}</td>   # To display variables,tags are {{ and }} .
       <td class = "table_cell">{{ user.id }}</td>
       <td class = "table_cell_title">{{ user.title }}</td>
       <td class = "table_cell">{{ user.completed }}</td>
