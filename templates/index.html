@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{%block title %} User Details Page {% endblock %}
+
+{% block body %} 
+<h3 class = "page_heading"> User Details </h3>
+<table class = "table">
+    <tr class = "table_header">
+      <th class = "table_cell">UserId</th>
+      <th class = "table_cell">Id</th>
+      <th class = "table_cell">Title</th>
+      <th class = "table_cell">Completed</th>
+    </tr>
+
+    {% for user in newdata %}
+    <tr class = "table_row">
+      <td class = "table_cell">{{ user.userId }}</td>
+      <td class = "table_cell">{{ user.id }}</td>
+      <td class = "table_cell_title">{{ user.title }}</td>
+      <td class = "table_cell">{{ user.completed }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  {% endblock %}
