@@ -56,6 +56,9 @@ This allows you to pass Python variables into HTML templates
 
 ![09](https://github.com/pragyagupta333/Get_API_Data_Using_Flask/assets/125549428/a5887819-5cb2-4dc3-9314-ba576f5c4236)
 
+## Result Screenshot
+
+![10](https://github.com/pragyagupta333/Get_API_Data_Using_Flask/assets/125549428/69ad061b-ed51-488b-a253-5f447fd8d4ac)
 
 
 ## Installations
